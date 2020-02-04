@@ -18,7 +18,7 @@
 
     <div class="container">
         <h3> Formulaire de réservation de vols </h3><br>
-        <form id="flightResa" method="POST" onsubmit="return searchFlights(flightResa)">
+        <form id="flightResa" method="GET" onsubmit="return searchFlights(flightResa)">
             <div class="flex">
                 <label for="flightFrom">Aéroport de départ : </label>
                 <input type="text" name="depart" id="autocomplete-airport-1" class="flight" required
